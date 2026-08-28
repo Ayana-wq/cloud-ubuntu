@@ -1,6 +1,26 @@
-#[InternetShortcut]
-#URL=https://d3c33hcgiwev3.cloudfront.net/nEF66wClTve-WvwUYYppDw_28e8a7b474f8437fbb85a37ad7f485f1_destroy-env.sh?Expires=1787970850&Signature=CAemzj-~H42v2Bt85Q7XOkE23Pa8q~QcaMvode9o16aED~ybnrxyB61KZQ5AeS2HokXKZ8~FIk9gSGnw3bjeZcPorED6-PH2R-EkTU1nTmU8Y4vIE3G9dZu2BPk0APoCwLEwH2W1TDdjQ-o286cTGumTHlOZCAh5p4uaT1HUcFM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-#IDList=
-#HotKey=0
-#IconFile=C:\Users\moeni\AppData\Local\Mozilla\Firefox\Profiles\77637v0x.default-release\shortcutCache\eno93MVibNwOczLA33s_mPtT1KEMYSh2tsoTU5Clplo=.ico
-#IconIndex=0
+#!/bin/bash
+##############################################################################
+# Module Practice Assessment
+# This assignment requires you to destroy the Cloud assets you created
+# Remember to set you default output to text in the aws config command
+##############################################################################
+
+echo "Beginning destroy script for module-02..."
+
+# Collect Instance IDs
+INSTANCEIDS=
+
+echo $INSTANCEIDS
+
+# https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/wait/instance-terminated.html
+# https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/terminate-instances.html
+
+if [ "$INSTANCEIDS" != "" ]
+  then
+    aws ec2 terminate-instances
+    echo "Waiting for all instances report state as TERMINATED..."
+    aws ec2 wait instance-terminated
+    echo "Finished destroying instances..."
+  else
+    echo 'There are no running values in $INSTANCEIDS to be terminated...'
+fi 
