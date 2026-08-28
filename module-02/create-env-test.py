@@ -1,6 +1,0 @@
-[InternetShortcut]
-URL=https://d3c33hcgiwev3.cloudfront.net/_a7f897c9372c41eda4edde1ecf6ef156_create-env-test.py?Expires=1787970668&Signature=ZZIb6ZUGed-NlvXNArSdjel7mYk3XYf0G1~gp1O2-8IjeokScnUttQYpcrh0Lnq0Ihd34CTMmnhe6f75KWcybZoxNjAUoJE8OCEObv49WKYAEl4jbtAY7d9kYWPoXNFXYflqJ0L2bazX~5PaY54eKIba6cVQwE3YV8aC90zN3m8_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-IDList=
-HotKey=0
-IconFile=C:\Users\moeni\AppData\Local\Mozilla\Firefox\Profiles\77637v0x.default-release\shortcutCache\cbcMf1U+xe2m0Mv0CGfDHsNmVeTZv6r3gdQW9yNYQGc=.ico
-IconIndex=0

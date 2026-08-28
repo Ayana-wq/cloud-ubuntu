@@ -1,6 +1,6 @@
-[InternetShortcut]
-URL=https://d3c33hcgiwev3.cloudfront.net/9O8QWm_xQx6MkDUEB8USWQ_7228727dba064b5197c1ea13c9ed59f1_install-env.sh?Expires=1787970668&Signature=EZv1~oxWuN0ikltNSyQUSfaRXRTMe-OZ923ax-CXeyxvkaWy7XGG9DQ1YS67mPaanbYf2T~zEmlsPeJPYwYA7193hXEWZbskEbwvJczwU~RG7lcvjqrLbik7P03So~PmG2G10v2215oeFIMTfZ~arHigtXWdvcZW~w3LmSNTjKg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-IDList=
-HotKey=0
-IconFile=C:\Users\moeni\AppData\Local\Mozilla\Firefox\Profiles\77637v0x.default-release\shortcutCache\moXYg4HloJRkym295KvSMD0h4FqgCO4G7CA+Y6sVppg=.ico
-IconIndex=0
+#[InternetShortcut]
+#URL=https://d3c33hcgiwev3.cloudfront.net/9O8QWm_xQx6MkDUEB8USWQ_7228727dba064b5197c1ea13c9ed59f1_install-env.sh?Expires=1787970668&Signature=EZv1~oxWuN0ikltNSyQUSfaRXRTMe-OZ923ax-CXeyxvkaWy7XGG9DQ1YS67mPaanbYf2T~zEmlsPeJPYwYA7193hXEWZbskEbwvJczwU~RG7lcvjqrLbik7P03So~PmG2G10v2215oeFIMTfZ~arHigtXWdvcZW~w3LmSNTjKg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+#IDList=
+#HotKey=0
+#IconFile=C:\Users\moeni\AppData\Local\Mozilla\Firefox\Profiles\77637v0x.default-release\shortcutCache\moXYg4HloJRkym295KvSMD0h4FqgCO4G7CA+Y6sVppg=.ico
+#IconIndex=0
